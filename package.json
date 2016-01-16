@@ -1,0 +1,43 @@
+{
+  "name": "ktv",
+  "version": "0.0.0",
+  "description": "A full-stack web framework based on Koa.",
+  "license": "MIT",
+  "repository": "egoist/ktv",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "start": "nodemon src/server/index.babel.js --watch src/server"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "web"
+  ],
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.4.3",
+    "babel-runtime": "^6.3.19",
+    "koa": "^1.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "nodemon": "^1.8.1",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "rules": {
+      "no-warning-comments": [0]
+    }
+  }
+}
