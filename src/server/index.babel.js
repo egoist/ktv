@@ -1,2 +1,2 @@
 require('babel-core/register')
-require('./index')
+module.exports = require('./index')
