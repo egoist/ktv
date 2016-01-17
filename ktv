@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+const cli = require('commander')
+const ktv = require('./server').default
+
+cli
+	.command('start')
+	.option('-p, --port [port]', 'Server port')
+	.action(opts => {
+		ktv(opts)
+	})
+
+cli.parse(process.argv)
