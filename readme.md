@@ -2,6 +2,12 @@
 
 **Work In Progress**
 
+My cheif goals:
+
+- Write both server-side and client-side code in ES2015/2016
+- Support various databases, like sqlite, MongoDB and RethinkDB
+- Webpack and Vue for client-side code with hot-module replacement support
+
 ## Commands
 
 |Command|Description|
