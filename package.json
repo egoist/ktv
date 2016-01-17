@@ -40,6 +40,10 @@
   },
   "xo": {
     "semicolon": false,
+    "ignores": [
+      "server/**",
+      "build/**"
+    ],
     "rules": {
       "no-warning-comments": [
         0
