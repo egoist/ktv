@@ -2,7 +2,7 @@
 
 **Work In Progress**
 
-My cheif goals:
+My chief goals:
 
 - Write both server-side and client-side code in ES2015/2016
 - Support various databases, like sqlite, MongoDB and RethinkDB
